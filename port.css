@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Open+Sans:ital,wght@0,600;0,700;0,800;1,800&family=Pixelify+Sans&family=Satisfy&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600&family=Dhurjati&family=Hind+Siliguri&family=Open+Sans:ital,wght@0,600;0,700;0,800;1,800&family=Pixelify+Sans&family=Rubik+Bubbles&family=Satisfy&family=Source+Code+Pro&family=Special+Elite&family=Teko:wght@300&display=swap');
 body {
     background: rgb(12,188,205);
     background: radial-gradient(circle, rgba(12,188,205,1) 0%, rgba(232,193,252,1) 100%);
 }
 
 .i2{
-    font-family: 'Special Elite', cursive;
+    font-family: 'Source Code Pro', cursive;
 }
 
 .i1:hover {
@@ -27,18 +27,21 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.dd{
+    font-family: 'Amatic SC', cursive;
+}
 h5{
-    font-family: 'Special Elite', cursive;
+    font-family: 'Amatic SC', cursive;
 }
 
 h3{
     font-family: 'Special Elite', cursive;
 }
 h4{
-    font-family: 'Special Elite', cursive;
+    font-family: 'Amatic SC', cursive;
 }
 h6{
-    font-family: 'Special Elite', cursive;
+    font-family: 'Amatic SC', cursive;
 }
 .i5{
      height: 400px;
@@ -160,3 +163,100 @@ background: radial-gradient(circle, rgba(12,188,205,1) 0%, rgba(196,95,247,1) 10
 .b9:hover{
     transform: scale(1.05);
 }
+
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.progress {
+    background: rgba(255, 132, 132, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 40px;
+    width: 200px;
+  }
+  
+  .progress-value1 {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(96, 119, 202);
+    height: 30px;
+    width: 10px;
+  }
+  .progress-value2 {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(80, 173, 156);
+    height: 30px;
+    width: 10px;
+  }
+  .progress-value3 {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(255, 245, 50);
+    height: 30px;
+    width: 10px;
+  }
+  .progress-value4 {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(228, 48, 105);
+    height: 30px;
+    width: 10px;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
